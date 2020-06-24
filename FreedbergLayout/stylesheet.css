@@ -1,0 +1,66 @@
+/*Stylesheet for midterm review*/
+
+BODY {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: 13px;
+  color: #000000;
+  font-weight: 400
+}
+
+.banner{
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  border: 1px solid #000000;
+}
+
+#content {
+margin: 0 auto;
+width: 900px;
+}
+
+h1{
+  font-family: Helvetica, sans-serif;
+  font-size: 3em;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+p{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+}
+
+.image{
+  width: 100%;
+  z-index: 0;
+  margin: 0 auto;
+  border: 1px solid #000000;
+}
+
+figcaption{
+  font-size: 11px;
+  color: #444;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+blockquote{
+  font-size: 2em;
+  font-style: italic;
+  margin: 50px;
+  padding: 15px;
+  border-left: 1px solid #000000;
+  text-align: left;
+}
+
+.stories{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
