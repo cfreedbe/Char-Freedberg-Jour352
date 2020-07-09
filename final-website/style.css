@@ -23,6 +23,7 @@ text-transform: uppercase;
   position: relative;
   text-align: center;
   color: #fff;
+  display: block;
 }
 
 .hero-image{
@@ -30,12 +31,12 @@ text-transform: uppercase;
 
 }
 
-.overlay{
+.overlay {
   position: absolute;
-  top: 20%;
+  top: 35%;
   width: 100%;
-  color: #fff;
-  opacity: .7;
+  background-color: red;
+  opacity: .6;
 }
 
 .hero-hed{
@@ -52,7 +53,38 @@ font-size: .25em;
 
 }
 
+.byline {
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media (max-width: 800px)
+p {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 /* Media queries */
+
+@media(max-width:650px) {
+  p{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
 
 @media (min-width: 576px)
 .container, .container-sm {
